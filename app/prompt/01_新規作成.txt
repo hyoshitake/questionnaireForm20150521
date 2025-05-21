@@ -1,0 +1,7 @@
+アプリケーションを構築してください
+- npm initでpackage.jsonを作成してください
+- vue3をinstallしてください
+- font-awesomeをinstallしてください
+- axiosをinstallしてください
+- supabaseのSDKをinstallしてください
+- TOPページを仮で作成してください

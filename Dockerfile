@@ -17,5 +17,7 @@ RUN set -x && apt update -y -qq && apt install -yq yarn && yarn install
 # 多分この辺でnpm installしないといけないけど試したらこけた
 RUN yarn install
 
+EXPOSE ${FRONTEND_PORT}
+
 CMD ["npm", "run", "dev"]
 # CMD ["bash"]

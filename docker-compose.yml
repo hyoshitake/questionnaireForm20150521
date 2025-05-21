@@ -11,8 +11,8 @@ services:
       LANG: C.UTF-8
       TZ: Asia/Tokyo
     ports:
-      - ${FRONTEND_PORT}:3000
+      - ${FRONTEND_PORT}:5173
     tty: true
     stdin_open: true
-    # command: bash -c "npm run dev"
-    command: bash
+    command: bash -c "npm run dev"
+    # command: bash
